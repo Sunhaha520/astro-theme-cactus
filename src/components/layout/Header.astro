@@ -12,10 +12,11 @@ const url = new URL(Astro.request.url);
    aria-current={url.pathname === "/" ? "page" : false}
    class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
    href="/"
+   id="logo-link"
   >
    <svg
     aria-hidden="true"
-    class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
+    class="me-3 h-12 w-8 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-24 sm:w-16"
     fill="currentColor"
     focusable="false"
     viewBox="0 0 1024 1024"
@@ -88,9 +89,32 @@ const url = new URL(Astro.request.url);
 </header>
 
 <style>
-  /* Add this CSS to change the SVG color on hover */
-  .group:hover .h-10 {
-    color: red; /* Change to the desired hover color */
+  /* Add this CSS to change the SVG color on click */
+  #logo-link {
+    color: gray; /* Default color */
+  }
+
+  #logo-link.clicked {
+    color: red; /* Color when clicked */
+  }
+
+  /* Increase the size of the logo */
+  .h-12 {
+    height: 3rem;
+  }
+
+  .w-8 {
+    width: 2rem;
+  }
+
+  @media (min-width: 640px) {
+    .h-24 {
+      height: 6rem;
+    }
+
+    .w-16 {
+      width: 4rem;
+    }
   }
 </style>
 
@@ -113,4 +137,8 @@ const url = new URL(Astro.request.url);
  }
 
  customElements.define("mobile-button", MobileNavBtn);
+
+ document.getElementById("logo-link")?.addEventListener("click", function() {
+  this.classList.toggle("clicked");
+ });
 </script>
