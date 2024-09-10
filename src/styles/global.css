@@ -25,9 +25,4 @@
 		--theme-quote: 102deg 100% 86%;
 	}
 
-  /* 注册你的自定义字体并告诉浏览器它在哪里 */
-@font-face {
-  font-family: "LXGW Wenkai Screen";
-}
-
 }
