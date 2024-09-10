@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "1dd7311be75be99a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6597d5cd441503d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "083b77a8cb0394cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/post/chouxiang1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2547dde2af886884",
+    "type": "split",
+    "children": [
+      {
+        "id": "0754f95012b4e0c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "daeb48ddfdadaf99",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1219d4568cb2cfe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "632ce5690211a96f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "28fb988c7eedd19f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b866dc7f1efcb396",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "641393ce1caf0f41",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/post/chouxiang1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a6295667b33a08f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/post/chouxiang1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1affe0872eaa4301",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a423b04632afd4e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/content/post/chouxiang1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "083b77a8cb0394cd",
+  "lastOpenFiles": [
+    "src/content/post/long-title.md",
+    "src/content/post/unique-tags.md",
+    "src/content/post/social-image.md",
+    "src/content/post/chouxiang1.md",
+    "src/content/post/missing-content.md",
+    "src/content/post/draft-post.md"
+  ]
+}
