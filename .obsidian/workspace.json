@@ -11,8 +11,12 @@
             "id": "083b77a8cb0394cd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/content/post/chouxiang1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/content/post/chouxiang1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/content/post/chouxiang1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/content/post/chouxiang1.md"
+              }
             }
           },
           {
@@ -148,7 +156,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "daeb48ddfdadaf99",
+  "active": "083b77a8cb0394cd",
   "lastOpenFiles": [
     "src/content/post/cover-image/index.md",
     "src/content/post/cover-image/cover.png",
