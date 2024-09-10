@@ -16,7 +16,7 @@ const url = new URL(Astro.request.url);
   >
    <svg
     aria-hidden="true"
-    class="me-3 h-12 w-8 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-24 sm:w-16"
+    class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
     fill="currentColor"
     focusable="false"
     viewBox="0 0 1024 1024"
@@ -89,32 +89,14 @@ const url = new URL(Astro.request.url);
 </header>
 
 <style>
-  /* Add this CSS to change the SVG color on click */
+  /* Add this CSS to change the SVG color on hover */
   #logo-link {
     color: gray; /* Default color */
+    transition: color 0.3s ease; /* Smooth transition */
   }
 
-  #logo-link.clicked {
-    color: red; /* Color when clicked */
-  }
-
-  /* Increase the size of the logo */
-  .h-12 {
-    height: 3rem;
-  }
-
-  .w-8 {
-    width: 2rem;
-  }
-
-  @media (min-width: 640px) {
-    .h-24 {
-      height: 6rem;
-    }
-
-    .w-16 {
-      width: 4rem;
-    }
+  #logo-link:hover {
+    color: red; /* Color when hovered */
   }
 </style>
 
@@ -137,8 +119,4 @@ const url = new URL(Astro.request.url);
  }
 
  customElements.define("mobile-button", MobileNavBtn);
-
- document.getElementById("logo-link")?.addEventListener("click", function() {
-  this.classList.toggle("clicked");
- });
 </script>
