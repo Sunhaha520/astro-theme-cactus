@@ -1,3 +1,4 @@
+---
 import { menuLinks } from "@/site-config";
 import Search from "../Search.astro";
 import ThemeToggle from "../ThemeToggle.astro";
@@ -6,90 +7,113 @@ const url = new URL(Astro.request.url);
 ---
 
 <header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header">
-	<div class="flex sm:flex-col">
-		<a
-			aria-current={url.pathname === "/" ? "page" : false}
-			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
-			href="/"
-		>
-			<svg
-				aria-hidden="true"
-				class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
-				fill="none"
-				focusable="false"
-				viewBox="0 0 1024 1024"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path d="M267.136 0h482.912a34.496 34.496 0 0 1 0 68.992H267.136a34.496 34.496 0 0 1 0-68.992z" fill="#C0C0C0" p-id="24040"></path>
-				<path d="M267.136 0h354.208a34.496 34.496 0 0 1 0 68.992H267.136a34.496 34.496 0 0 1 0-68.992z" fill="#D8D8D8" p-id="24041"></path>
-				<path d="M209.6 213.312a145.28 145.28 0 0 1 7.168-40.704l37.184-103.648h509.312l37.184 103.648c3.936 10.944 7.136 29.312 7.168 40.704l1.568 687.584a41.728 41.728 0 0 1-41.696 41.952H249.792a41.6 41.6 0 0 1-41.696-41.952L209.664 213.312z" fill="#D63D30" p-id="24042"></path>
-				<path d="M435.264 68.992h327.968l37.184 103.648c3.936 10.944 7.136 29.312 7.168 40.704l1.568 687.584a41.728 41.728 0 0 1-41.696 41.952h-150.912a41.92 41.92 0 0 0 41.792-41.824V210.912a150.72 150.72 0 0 0-6.784-40.64L616.64 69.024H435.296z" fill="#B82216" p-id="24043"></path>
-				<path d="M255.648 942.848h505.92l-6.72 35.296c-3.552 18.592-21.792 33.696-40.768 33.696H305.12c-18.976 0-37.632-14.976-41.728-33.696l-7.712-35.296z" fill="#C0C0C0" p-id="24044"></path>
-				<path d="M255.648 942.848h375.52l-4.928 34.912c-2.656 18.816-20.288 34.08-39.456 34.08H301.504c-19.136 0-37.12-15.296-40.16-34.08l-5.664-34.912z" fill="#D8D8D8" p-id="24045"></path>
-				<path d="M336.128 149.472c31.744 0 57.504 25.728 57.504 57.504v597.92a57.504 57.504 0 1 1-115.008 0V206.976c0-31.744 25.728-57.504 57.504-57.504z" fill="#F15E54" p-id="24046"></path>
-				<path d="M715.552 505.92a114.976 114.976 0 1 1-229.984 0 114.976 114.976 0 0 1 229.984 0z" fill="#FFFFFF" p-id="24047"></path>
-				<path d="M658.08 605.504a114.912 114.912 0 0 0 0-199.168v199.2z" fill="#D8D8D8" p-id="24048"></path>
-			</svg>
-			<span class="text-xl font-bold sm:text-2xl">学术可乐罐</span>
-		</a>
-		<nav
-			aria-label="Main menu"
-			class="absolute -inset-x-4 top-14 hidden flex-col items-end gap-y-4 rounded-md bg-bgColor/[.85] py-4 text-accent shadow backdrop-blur group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:-ms-4 sm:mt-1 sm:flex sm:flex-row sm:items-center sm:divide-x sm:divide-dashed sm:divide-accent sm:rounded-none sm:bg-transparent sm:py-0 sm:shadow-none sm:backdrop-blur-none"
-			id="navigation-menu"
-		>
-			{
-				menuLinks.map((link) => (
-					<a
-						aria-current={url.pathname === link.path ? "page" : false}
-						class="px-4 py-4 underline-offset-2 sm:py-0 sm:hover:underline"
-						data-astro-prefetch
-						href={link.path}
-					>
-						{link.title}
-					</a>
-				))
-			}
-		</nav>
-	</div>
-	<Search />
-	<ThemeToggle />
-	<mobile-button>
-		<button
-			aria-expanded="false"
-			aria-haspopup="menu"
-			aria-label="Open main menu"
-			class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden"
-			id="toggle-navigation-menu"
-			type="button"
-		>
-			<svg
-				aria-hidden="true"
-				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0"
-				fill="none"
-				focusable="false"
-				id="line-svg"
-				stroke="currentColor"
-				stroke-width="1.5"
-				viewBox="0 0 24 24"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
-				></path>
-			</svg>
-			<svg
-				aria-hidden="true"
-				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 text-accent opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100"
-				class="text-accent"
-				fill="none"
-				focusable="false"
-				id="cross-svg"
-				stroke="currentColor"
-				stroke-width="1.5"
-				viewBox="0 0 24 24"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
-			</svg>
-		</button>
-	</mobile-button>
+ <div class="flex sm:flex-col">
+  <a
+   aria-current={url.pathname === "/" ? "page" : false}
+   class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+   href="/"
+  >
+   <svg
+    aria-hidden="true"
+    class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
+    fill="none"
+    focusable="false"
+    viewBox="0 0 272 480"
+    xmlns="http://www.w3.org/2000/svg"
+   >
+    <title>Logo</title>
+    <path
+     d="M181.334 93.333v-40L226.667 80v40l-45.333-26.667ZM136.001 53.333 90.667 26.667v426.666L136.001 480V53.333Z"
+     fill="#B04304"></path>
+    <path
+     d="m136.001 119.944 45.333-26.667 45.333 26.667-45.333 26.667-45.333-26.667ZM90.667 26.667 136.001 0l45.333 26.667-45.333 26.666-45.334-26.666ZM181.334 53.277l45.333-26.666L272 53.277l-45.333 26.667-45.333-26.667ZM0 213.277l45.333-26.667 45.334 26.667-45.334 26.667L0 213.277ZM136 239.944l-45.333-26.667v53.333L136 239.944Z"
+     fill="#FF5D01"></path>
+    <path
+     d="m136 53.333 45.333-26.666v120L226.667 120V80L272 53.333V160l-90.667 53.333v240L136 480V306.667L45.334 360V240l45.333-26.667v53.334L136 240V53.333Z"
+     fill="#53C68C"></path>
+    <path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path>
+   </svg>
+   <span class="text-xl font-bold sm:text-2xl">学术可乐罐</span>
+  </a>
+  <nav
+   aria-label="Main menu"
+   class="absolute -inset-x-4 top-14 hidden flex-col items-end gap-y-4 rounded-md bg-bgColor/[.85] py-4 text-accent shadow backdrop-blur group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:-ms-4 sm:mt-1 sm:flex sm:flex-row sm:items-center sm:divide-x sm:divide-dashed sm:divide-accent sm:rounded-none sm:bg-transparent sm:py-0 sm:shadow-none sm:backdrop-blur-none"
+   id="navigation-menu"
+  >
+   {
+    menuLinks.map((link) => (
+     <a
+      aria-current={url.pathname === link.path ? "page" : false}
+      class="px-4 py-4 underline-offset-2 sm:py-0 sm:hover:underline"
+      data-astro-prefetch
+      href={link.path}
+     >
+      {link.title}
+     </a>
+    ))
+   }
+  </nav>
+ </div>
+ <Search />
+ <ThemeToggle />
+ <mobile-button>
+  <button
+   aria-expanded="false"
+   aria-haspopup="menu"
+   aria-label="Open main menu"
+   class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden"
+   id="toggle-navigation-menu"
+   type="button"
+  >
+   <svg
+    aria-hidden="true"
+    class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0"
+    fill="none"
+    focusable="false"
+    id="line-svg"
+    stroke="currentColor"
+    stroke-width="1.5"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+   >
+    <path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
+    ></path>
+   </svg>
+   <svg
+    aria-hidden="true"
+    class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 text-accent opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100"
+    class="text-accent"
+    fill="none"
+    focusable="false"
+    id="cross-svg"
+    stroke="currentColor"
+    stroke-width="1.5"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+   >
+    <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+   </svg>
+  </button>
+ </mobile-button>
 </header>
+
+<script>
+ import { toggleClass } from "@/utils/domElement";
+
+ class MobileNavBtn extends HTMLElement {
+  #menuOpen: boolean = false;
+
+  connectedCallback() {
+   const headerEl = document.getElementById("main-header")!;
+   const mobileButtonEl = this.querySelector<HTMLButtonElement>("button");
+
+   mobileButtonEl?.addEventListener("click", () => {
+    if (headerEl) toggleClass(headerEl, "menu-open");
+    this.#menuOpen = !this.#menuOpen;
+    mobileButtonEl.setAttribute("aria-expanded", this.#menuOpen.toString());
+   });
+  }
+ }
+
+ customElements.define("mobile-button", MobileNavBtn);
+</script>
