@@ -93,36 +93,3 @@ const url = new URL(Astro.request.url);
 		</button>
 	</mobile-button>
 </header>
-
-<style>
-	/* 应用灰度滤镜 */
-	.grayscale {
-		filter: grayscale(100%);
-	}
-
-	/* 移除灰度滤镜 */
-	.hover\:filter-none:hover {
-		filter: none;
-	}
-</style>
-
-<script>
-	import { toggleClass } from "@/utils/domElement";
-
-	class MobileNavBtn extends HTMLElement {
-		#menuOpen: boolean = false;
-
-		connectedCallback() {
-			const headerEl = document.getElementById("main-header")!;
-			const mobileButtonEl = this.querySelector<HTMLButtonElement>("button");
-
-			mobileButtonEl?.addEventListener("click", () => {
-				if (headerEl) toggleClass(headerEl, "menu-open");
-				this.#menuOpen = !this.#menuOpen;
-				mobileButtonEl.setAttribute("aria-expanded", this.#menuOpen.toString());
-			});
-		}
-	}
-
-	customElements.define("mobile-button", MobileNavBtn);
-</script>
