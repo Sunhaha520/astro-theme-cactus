@@ -11,12 +11,8 @@
             "id": "083b77a8cb0394cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/post/chouxiang1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/post/chouxiang1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/post/chouxiang1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/post/chouxiang1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,10 +150,15 @@
   },
   "active": "daeb48ddfdadaf99",
   "lastOpenFiles": [
+    "src/content/post/cover-image/index.md",
+    "src/content/post/cover-image/cover.png",
+    "src/content/post/markdown-elements/admonistions.md",
+    "src/content/post/markdown-elements/index.md",
+    "src/content/post/webmentions/index.md",
+    "src/content/post/chouxiang1.md",
     "src/content/post/long-title.md",
     "src/content/post/unique-tags.md",
     "src/content/post/social-image.md",
-    "src/content/post/chouxiang1.md",
     "src/content/post/missing-content.md",
     "src/content/post/draft-post.md"
   ]
