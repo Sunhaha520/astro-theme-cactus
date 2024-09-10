@@ -15,7 +15,7 @@
               "state": {
                 "file": "src/content/post/chouxiang1.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -128,14 +128,21 @@
                 "file": "src/content/post/chouxiang1.md"
               }
             }
+          },
+          {
+            "id": "baa660fcb40cf480",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,10 +151,12 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "083b77a8cb0394cd",
+  "active": "daeb48ddfdadaf99",
   "lastOpenFiles": [
     "src/content/post/long-title.md",
     "src/content/post/unique-tags.md",
