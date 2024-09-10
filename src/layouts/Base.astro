@@ -1,6 +1,7 @@
 ---
 import BaseHead from "@/components/BaseHead.astro";
 import SkipLink from "@/components/SkipLink.astro";
+import Comment from '~/components/Comments.astro';
 import ThemeProvider from "@/components/ThemeProvider.astro";
 import Footer from "@/components/layout/Footer.astro";
 import Header from "@/components/layout/Header.astro";
@@ -28,6 +29,7 @@ const {
 		<Header />
 		<main id="main">
 			<slot />
+      <Comment />
 		</main>
 		<Footer />
 	</body>
