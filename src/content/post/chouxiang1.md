@@ -1,6 +1,6 @@
 ---
-title: 一次抽象的大导见面
-description: 因为这件事太抽象了，我决定用中文写。
+title: "与大导的一次抽象见面"
+description: "因为这次见面太抽象了，所以我必须用中文才能表达清楚"
 publishDate: "15 Aug 2024"
 tags: ["Abstract"]
 ---
