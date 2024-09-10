@@ -6,6 +6,28 @@ import ThemeToggle from "../ThemeToggle.astro";
 const url = new URL(Astro.request.url);
 ---
 
+<style>
+  :root {
+    --icon-color-light: #4a4a4a; /* Dark gray for light mode */
+    --icon-color-dark: #ffffff; /* White for dark mode */
+    --icon-color-hover: #ff0000; /* Vibrant red for hover */
+  }
+
+  .icon {
+    color: var(--icon-color-light);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .icon {
+      color: var(--icon-color-dark);
+    }
+  }
+
+  .icon:hover {
+    color: var(--icon-color-hover);
+  }
+</style>
+
 <header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header">
  <div class="flex sm:flex-col">
   <a
@@ -15,7 +37,7 @@ const url = new URL(Astro.request.url);
   >
    <svg
     t="1725958701879"
-    class="icon me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12 group-hover:text-red-500"
+    class="icon me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
     viewBox="0 0 1024 1024"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
