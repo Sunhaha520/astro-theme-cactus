@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/post/newlogo.md",
+                "file": "src/content/post/hbd.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/post/newlogo.md",
+                "file": "src/content/post/hbd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/post/newlogo.md",
+                "file": "src/content/post/hbd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/post/newlogo.md"
+                "file": "src/content/post/hbd.md"
               }
             }
           },
@@ -159,6 +159,7 @@
   "active": "083b77a8cb0394cd",
   "lastOpenFiles": [
     "src/content/post/chouxiang1.md",
+    "src/content/post/hbd.md",
     "src/content/post/newlogo.md",
     "src/content/post/cover-image/index.md",
     "src/content/post/cover-image/cover.png",
