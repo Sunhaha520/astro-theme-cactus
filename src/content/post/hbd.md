@@ -47,7 +47,7 @@ Now we need to test whether YOLOv8 is installed successfully. We will test it wi
   
 If the installation is successful, you will find the following image in the `runs/detect/predict` folder. At this point, you can start using YOLOv8.    
 
-![test1](https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/lunwen1/截屏2024-09-13-02.03.21.lvolwg9jc.webp)
+![test1](https://cdn.dribbble.com/userupload/16571146/file/original-d18cc02009eeb2c66e22adbe83e5e8ee.png)
   
 ### Begin Training
 You can start training the dataset using the following program:    
@@ -64,11 +64,11 @@ train: /kaggle/input/buliding/train/images val: /kaggle/input/buliding/valid/ima
 
 If the training is successful, you will be able to see the training curves in the results.   
 
-![results](https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/lunwen1/results.70aahibv52.webp)
+![results](https://cdn.dribbble.com/userupload/16571143/file/original-aae739271f3fae8f29050cd3f6e31b5d.webp)
 
 Below are some details about the scope and labels of architectural components:
 
-![pintu-fulicat](https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/lunwen1/pintu-fulicat.com-1726164937249.1ovdwss6kv.webp)
+![pintu-fulicat](https://cdn.dribbble.com/userupload/16571144/file/original-33a151f6ba7944ca8dcbbd11fe5d1432.webp)
   
 ## Test
 Let's write a piece of code to test the segmentation effect:  
@@ -147,7 +147,7 @@ cv2.destroyAllWindows()
   
 The output of this code:
 
-![output](https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/lunwen1/截屏2024-09-13-02.25.06.1sezuix9ys.webp)
+![output](https://cdn.dribbble.com/userupload/16571145/file/original-2680f30a18bced74e4ab1dc99f118640.png)
 
 Great,👌 we have obtained a very good result.  
 ## Summary
