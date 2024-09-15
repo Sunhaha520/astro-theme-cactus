@@ -1,7 +1,7 @@
 ---
 title: An Idea for Patching Holes in Wall Point Clouds
 description: When generating 3D point clouds of buildings using photographs, smooth walls often lose some points, resulting in many holes.
-publishDate: 15 Sep 2024
+publishDate: 18 Sep 2024
 tags: ["点云"]
 ---
 ## Why Patch Holes
