@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6597d5cd441503d3",
+        "id": "43a7f01721adb5ab",
         "type": "tabs",
         "children": [
           {
-            "id": "083b77a8cb0394cd",
+            "id": "a95db60c474c75a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/post/hbd.md",
+                "file": "src/content/post/deepmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/post/hbd.md",
+                "file": "src/content/post/deepmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/post/hbd.md",
+                "file": "src/content/post/deepmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/post/hbd.md"
+                "file": "src/content/post/deepmap.md"
               }
             }
           },
@@ -156,11 +156,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "083b77a8cb0394cd",
+  "active": "a95db60c474c75a6",
   "lastOpenFiles": [
-    "src/content/post/newlogo.md",
-    "src/content/post/hbd.md",
     "src/content/post/chouxiang1.md",
+    "src/content/post/deepmap.md",
+    "src/content/post/hbd.md",
+    "src/assets/about-astro.png",
+    "src/content/post/newlogo.md",
     "src/content/post/cover-image/index.md",
     "src/content/post/cover-image/cover.png",
     "src/content/post/markdown-elements/admonistions.md",
