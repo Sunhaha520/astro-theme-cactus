@@ -15,7 +15,7 @@
               "state": {
                 "file": "src/content/post/deepmap.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -161,8 +161,8 @@
     "src/content/post/chouxiang1.md",
     "src/content/post/deepmap.md",
     "src/content/post/hbd.md",
-    "src/assets/about-astro.png",
     "src/content/post/newlogo.md",
+    "src/assets/about-astro.png",
     "src/content/post/cover-image/index.md",
     "src/content/post/cover-image/cover.png",
     "src/content/post/markdown-elements/admonistions.md",
