@@ -1,6 +1,6 @@
 ---
 title: Simple Stack - A Foolproof Stacking Software for MAC
-description: This is a stacking software developed by Ke Lejun in his spare time, specifically for use on MAC. It is ready to use straight out of the box, offering simplicity and speed.
+description: This is a stacking software developed by Ke Lejun in his spare time, specifically for use on MAC.
 publishDate: 18 Sep 2024
 tags:
   - 计算机视觉
