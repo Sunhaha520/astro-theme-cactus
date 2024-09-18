@@ -1,8 +1,9 @@
 ---
-title: "Development: Simple Stack - A Foolproof Stacking Software for MAC"
-description: "This is a stacking software developed by Ke Lejun in his spare time, specifically for use on MAC. It is ready to use straight out of the box, offering simplicity and speed."
-publishDate: "18 Sep 2024"
-tags: ["计算机视觉"]
+title: Simple Stack - A Foolproof Stacking Software for MAC
+description: This is a stacking software developed by Ke Lejun in his spare time, specifically for use on MAC. It is ready to use straight out of the box, offering simplicity and speed.
+publishDate: 18 Sep 2024
+tags:
+  - 计算机视觉
 ---
 ## Introduction
 In the realm of photography, especially in astrophotography and long-exposure scenarios, image stacking is a technique that combines multiple images to create a single, high-quality image. This process helps in reducing noise and enhancing details. While there are several professional tools available for image stacking, many photographers, especially beginners, seek a simpler, more user-friendly solution.  
