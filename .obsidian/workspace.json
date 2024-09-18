@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/post/deepmap.md",
+                "file": "src/content/post/simplestack.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/post/deepmap.md",
+                "file": "src/content/post/simplestack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/post/deepmap.md",
+                "file": "src/content/post/simplestack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/post/deepmap.md"
+                "file": "src/content/post/simplestack.md"
               }
             }
           },
@@ -158,10 +158,11 @@
   },
   "active": "a95db60c474c75a6",
   "lastOpenFiles": [
-    "src/content/post/chouxiang1.md",
     "src/content/post/deepmap.md",
-    "src/content/post/hbd.md",
     "src/content/post/newlogo.md",
+    "src/content/post/simplestack.md",
+    "src/content/post/chouxiang1.md",
+    "src/content/post/hbd.md",
     "src/assets/about-astro.png",
     "src/content/post/cover-image/index.md",
     "src/content/post/cover-image/cover.png",
