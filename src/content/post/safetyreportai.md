@@ -8,8 +8,11 @@ tags:
 In the modern construction industry, safety is always the top priority. To enhance the efficiency and accuracy of construction site safety management, we have developed an intelligent construction site safety report generator. This tool combines computer vision and artificial intelligence technologies to automatically analyze construction site images, generate detailed safety reports, and provide improvement suggestions. This article will detail the development process, features, and usage of this tool.  
 
 You can see the effect in the following video：  
-<video src="https://r2.xiaoayu.eu.org/2024/11/5c1ebe3466627327804c621dff46a78c.mp4"></video>
-  
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://1drv.ms/v/s!AtrEXrvp9TP_i3iDpNar_UnmLqiX?embed=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 You can view the generated security report at the following link：  
 https://lab.kelejun.cn/doc/baogao.pdf
 ## Project Background
