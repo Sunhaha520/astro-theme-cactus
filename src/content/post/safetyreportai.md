@@ -8,9 +8,7 @@ tags:
 In the modern construction industry, safety is always the top priority. To enhance the efficiency and accuracy of construction site safety management, we have developed an intelligent construction site safety report generator. This tool combines computer vision and artificial intelligence technologies to automatically analyze construction site images, generate detailed safety reports, and provide improvement suggestions. This article will detail the development process, features, and usage of this tool.  
 
 You can see the effect in the following video：  
-<iframe height=498 width=510 src="https://pt9wnw.ch.files.1drv.com/y4mHB4LIhRBkfLzJspkHRtyueOvKIL2oxRhRiCYc4dyc-ta7Y-QsZxeBshAY0I9xHTXNcNi3AvsRGkJVscPXvenGWB88xIaKec0FcoOWKTZEeBWCc9RrgE4Jd6J5yL6Y52I-_-_QEHVhL3RNkDYwpyV2vWdYaMgThULORg6y8Q-JMlb0myY6j37SPjEP8Pv5kPvSM0k2UxvGzEbO_pSPNYA-S5fAoAJ1_EQtg9-cBaIdlE?AVOverride=1"> </iframe>
-
-<video src="https://pt9wnw.ch.files.1drv.com/y4mHB4LIhRBkfLzJspkHRtyueOvKIL2oxRhRiCYc4dyc-ta7Y-QsZxeBshAY0I9xHTXNcNi3AvsRGkJVscPXvenGWB88xIaKec0FcoOWKTZEeBWCc9RrgE4Jd6J5yL6Y52I-_-_QEHVhL3RNkDYwpyV2vWdYaMgThULORg6y8Q-JMlb0myY6j37SPjEP8Pv5kPvSM0k2UxvGzEbO_pSPNYA-S5fAoAJ1_EQtg9-cBaIdlE?AVOverride=1"></video>
+<video src="https://r2.xiaoayu.eu.org/2024/11/5c1ebe3466627327804c621dff46a78c.mp4"></video>
   
 You can view the generated security report at the following link：  
 https://lab.kelejun.cn/doc/baogao.pdf
