@@ -1,6 +1,6 @@
 ---
 title: Building an Intelligent Construction Site Safety Report Generator
-description: We developed an intelligent construction site safety report generator using YOLO and OpenAI's GPT-4 to automate image analysis and report generation.
+description: Intelligent construction site safety report generator using YOLO and GPT-4 for automated image analysis and report generation.
 publishDate: 13 Nov 2024
 tags:
   - 计算机视觉
