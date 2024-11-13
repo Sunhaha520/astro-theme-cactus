@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/post/simplestack.md",
+                "file": "src/content/post/safetyreportai.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "safetyreportai"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/post/simplestack.md",
+                "file": "src/content/post/safetyreportai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "safetyreportai 的反向链接列表"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/post/simplestack.md",
+                "file": "src/content/post/safetyreportai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "safetyreportai 的出链列表"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/post/simplestack.md"
-              }
+                "file": "src/content/post/safetyreportai.md"
+              },
+              "icon": "lucide-list",
+              "title": "safetyreportai 的大纲"
             }
           },
           {
@@ -134,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -158,11 +176,15 @@
   },
   "active": "a95db60c474c75a6",
   "lastOpenFiles": [
-    "src/content/post/chouxiang1.md",
-    "src/content/post/deepmap.md",
-    "src/content/post/hbd.md",
+    "public/doc/baogao.pdf",
+    "public/doc",
     "src/content/post/newlogo.md",
+    "src/content/post/safetyreportai.md",
     "src/content/post/simplestack.md",
+    "src/content/post/deepmap.md",
+    "src/content/post/chouxiang1.md",
+    "src/content/post/hbd.md",
+    "src/content/未命名.md",
     "src/assets/about-astro.png",
     "src/content/post/cover-image/index.md",
     "src/content/post/cover-image/cover.png",
